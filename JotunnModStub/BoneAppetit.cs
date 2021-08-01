@@ -457,8 +457,8 @@ namespace Boneappetit
                     {
 
                         Identifier = "rkCookingSkill",
-                        Name = "Gore-mand",
-                        Description = "Learn to cook and eat like a Viking!",
+                        Name = "Кровный человек",
+                        Description = "Научитесь готовить и есть как викинг!",
                         Icon = CookingSprite,
                         IncreaseStep = 1f,
                     });
@@ -596,7 +596,7 @@ namespace Boneappetit
             icecream = new CustomItem(icecream_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Ice Cream",
+                    Name = "Мороженое",
                     Enabled = ConesEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_prep",
@@ -618,7 +618,7 @@ namespace Boneappetit
             nut_ella = new CustomItem(nut_ellaFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Nut-Ella",
+                    Name = "Яйцо Элла",
                     Enabled = Nut_EllaEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_prep",
@@ -637,7 +637,7 @@ namespace Boneappetit
             carrotstick = new CustomItem(carrotstickFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Carrot Sticks",
+                    Name = "Морковные палочки",
                     Enabled = CarrotSticksEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_prep",
@@ -656,7 +656,7 @@ namespace Boneappetit
             boiledegg = new CustomItem(boiledeggFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Boiled Egg",
+                    Name = "Вареное яйцо",
                     Enabled = BoiledEggEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_prep",
@@ -674,7 +674,7 @@ namespace Boneappetit
             butter = new CustomItem(butterFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Carrot Butter",
+                    Name = "Морковное масло",
                     Enabled = ButterEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_prep",
@@ -692,7 +692,7 @@ namespace Boneappetit
             broth = new CustomItem(brothFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Bone Broth",
+                    Name = "Костный бульон",
                     Enabled = BrothEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_prep",
@@ -711,7 +711,7 @@ namespace Boneappetit
             fishStew = new CustomItem(fishStewFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Fish Stew",
+                    Name = "Тушеная рыба",
                     Enabled = FishStewEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_prep",
@@ -733,7 +733,7 @@ namespace Boneappetit
             burger = new CustomItem(burgerFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Burger",
+                    Name = "Бутерброд",
                     Enabled = BurgerEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_grill",
@@ -755,7 +755,7 @@ namespace Boneappetit
             bloodsausage = new CustomItem(bloodsausageFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Blood Sausage",
+                    Name = "Кровяная колбаса",
                     Enabled = BurgerEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_grill",
@@ -776,7 +776,7 @@ namespace Boneappetit
             omlette = new CustomItem(omletteFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Omlette",
+                    Name = "Омлет",
                     Enabled = BurgerEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_griddle",
@@ -797,7 +797,7 @@ namespace Boneappetit
             porkrind = new CustomItem(porkrind_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Pork Rinds",
+                    Name = "Свиные шкварки",
                     Enabled = PorkRindEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_griddle",
@@ -817,7 +817,7 @@ namespace Boneappetit
             haggis = new CustomItem(haggisFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Haggis",
+                    Name = "Хаггис",
                     Enabled = HaggisEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_prep",
@@ -839,7 +839,7 @@ namespace Boneappetit
             candiedTurnip = new CustomItem(candiedTurnipFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Candied Turnip",
+                    Name = "Засахаренная репа",
                     Enabled = CandiedTurnipEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_grill",
@@ -860,7 +860,7 @@ namespace Boneappetit
             moochi = new CustomItem(moochiFab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Moochi",
+                    Name = "Моти",
                     Enabled = MoochiEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_prep",
@@ -882,7 +882,7 @@ namespace Boneappetit
             kabob = new CustomItem(kabob_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Kabob",
+                    Name = "Шашлык",
                     Enabled = KabobEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_grill",
@@ -904,7 +904,7 @@ namespace Boneappetit
             friedlox = new CustomItem(friedlox_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Chicken Fried Lox Meat",
+                    Name = "Куриное жареное мясо Локса",
                     Enabled = FriedLoxEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_grill",
@@ -926,7 +926,7 @@ namespace Boneappetit
             glazedcarrot = new CustomItem(glazedcarrot_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Honey Glazed Carrots",
+                    Name = "Морковь в медовой глазури",
                     Enabled = GlazedCarrotEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_griddle",
@@ -947,7 +947,7 @@ namespace Boneappetit
             bacon = new CustomItem(bacon_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Bacon",
+                    Name = "Ветчина",
                     Enabled = BaconEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_griddle",
@@ -965,7 +965,7 @@ namespace Boneappetit
             smokedfish = new CustomItem(smokedfish_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "SmokedFish",
+                    Name = "Копченая рыба",
                     Enabled = SmokedFishEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_griddle",
@@ -984,7 +984,7 @@ namespace Boneappetit
             pancake = new CustomItem(pancake_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Pancakes",
+                    Name = "Блины",
                     Enabled = PancakesEnable.Value,
                     Amount = 1,
                     CraftingStation = "rk_grill",
@@ -1007,7 +1007,7 @@ namespace Boneappetit
             pizza = new CustomItem(pizza_prefab, fixReference: true,
               new ItemConfig
               {
-                  Name = "Pizza",
+                  Name = "Пицца",
                   Enabled = PizzaEnable.Value,
                   Amount = 1,
                   CraftingStation = "rk_grill",
@@ -1030,7 +1030,7 @@ namespace Boneappetit
             coffee = new CustomItem(coffee_prefab, fixReference: true,
               new ItemConfig
               {
-                  Name = "Coffee",
+                  Name = "Кофе",
                   Enabled = CoffeeEnable.Value,
                   Amount = 1,
                   CraftingStation = "rk_prep",
@@ -1049,7 +1049,7 @@ namespace Boneappetit
             latte = new CustomItem(latte_prefab, fixReference: true,
               new ItemConfig
               {
-                  Name = "Spice Latte",
+                  Name = "Латте со специями",
                   Enabled = LatteEnable.Value,
                   Amount = 2,
                   CraftingStation = "rk_prep",
@@ -1070,7 +1070,7 @@ namespace Boneappetit
             firecream = new CustomItem(firecream_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Fire Cream",
+                    Name = "Огненный крем",
                     Enabled = ConesEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_prep",
@@ -1092,7 +1092,7 @@ namespace Boneappetit
             electriccream = new CustomItem(electriccream_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Electric Cream",
+                    Name = "Электрический крем",
                     Enabled = ConesEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_prep",
@@ -1114,7 +1114,7 @@ namespace Boneappetit
             acidcream = new CustomItem(acidcream_prefab, fixReference: true,
                 new ItemConfig
                 {
-                    Name = "Acid Cream Cone",
+                    Name = "Рожок с кислым кремом",
                     Enabled = ConesEnable.Value,
                     Amount = 2,
                     CraftingStation = "rk_prep",
@@ -1136,7 +1136,7 @@ namespace Boneappetit
             porridge = new CustomItem(porridge_prefab, fixReference: true,
             new ItemConfig
             {
-                Name = "Porridge",
+                Name = "Овсяная каша",
                 Enabled = PorridgeEnable.Value,
                 Amount = 1,
                 CraftingStation = "rk_grill",
@@ -1159,7 +1159,7 @@ namespace Boneappetit
             pbj = new CustomItem(pbj_prefab, fixReference: true,
                new ItemConfig
                {
-                   Name = "Jimmy's PBJ",
+                   Name = "Хлеб с джемом",
                    Enabled = PBJEnable.Value,
                    Amount = 4,
                    CraftingStation = "rk_grill",
@@ -1181,7 +1181,7 @@ namespace Boneappetit
             cake = new CustomItem(cake_prefab, fixReference: true,
                new ItemConfig
                {
-                   Name = "Birthday Cake",
+                   Name = "Праздничный торт",
                    Enabled = CakeEnable.Value,
                    Amount = 1,
                    CraftingStation = "rk_grill",
@@ -1204,7 +1204,7 @@ namespace Boneappetit
             hat = new CustomItem(hatFab, fixReference: true,
                new ItemConfig
                {
-                   Name = "Chef Hat",
+                   Name = "Шляпа шеф-повара",
                    Enabled = CheffHatEnable.Value,
                    Amount = 1,
                    CraftingStation = "",
@@ -1223,7 +1223,7 @@ namespace Boneappetit
             mead = new CustomItem(meadFab, fixReference: true,
                new ItemConfig
                {
-                   Name = "Mead",
+                   Name = "Медовый напиток",
                    Enabled = MeadEnable.Value,
                    Amount = 1,
                    CraftingStation = "rk_prep",
